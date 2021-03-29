@@ -1,0 +1,104 @@
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\obj\Release\OnOffSpell.csprojResolveAssemblyReference.cache
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\OnOffSpell.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\OnOffSpell.pdb
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Assembly-CSharp.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\IngameDebugConsole.Runtime.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.CoreModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.PhysicsModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.AnimationModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.AudioModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Sirenix.OdinInspector.Attributes.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.UI.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Unity.RenderPipelines.Universal.Runtime.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.AssetBundleModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\RainyReignGames.Dismemberment.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Unity.Mathematics.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.TerrainModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\VacuumShaders.TerrainToMesh.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.ParticleSystemModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.Physics2DModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.DirectorModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.AIModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Cinemachine.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Unity.Burst.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Unity.Jobs.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.WindModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Unity.RenderPipelines.Core.Runtime.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.IMGUIModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\NavMeshComponents.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.UnityWebRequestModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\chabuk.manikinmono.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Unity.ResourceManager.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Assembly-CSharp-firstpass.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\RainyReignGames.MeshUtilities.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\PaintIn3D.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\RainyReignGames.Reveal.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.VFXModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.XRModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Newtonsoft.Json.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\SteamVR.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Unity.Addressables.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.VRModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.UIModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Oculus.Platform.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.SpatialTracking.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\PowerBooks.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.JSONSerializeModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.InputLegacyModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.TextRenderingModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Newtonsoft.Json.UnityConverters.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Oculus.VR.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.SubsystemsModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.ImageConversionModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.SharedInternalsModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\RainyReignGames.Collections.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Unity.Collections.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Unity.Timeline.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Unity.Burst.Unsafe.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\Valve.Newtonsoft.Json.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.ARModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.DSPGraphModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.AndroidJNIModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.AccessibilityModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.UnityConnectModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.PerformanceReportingModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.ClothModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.ClusterInputModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.ClusterRendererModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.CrashReportingModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.TilemapModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.VideoModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.GridModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.LocalizationModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.UNETModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.ScreenCaptureModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.GameCenterModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.SpriteMaskModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.StreamingModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.TextCoreModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.SpriteShapeModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.UIElementsModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.VehiclesModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\UnityEngine.InputModule.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\obj\Release\OnOffSpell.dll
+C:\Users\nikon\RiderProjects\OnOffSpell\OnOffSpell\obj\Release\OnOffSpell.pdb
+D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\OnOffSpell.dll
+D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\OnOffSpell.pdb
+D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\Effects\Effect_SpellOrbOnOff.json
+D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\Items\Item_Spell_SpellOnOff.json
+D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\Items\Item_Spell_SpellOnOffMerge.json
+D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\manifest.json
+D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\Level_OnOffSpell.json
+D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\Spells\Spell_OnOff.json
+D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\Spells\Spell_OnOffMerge.json
+D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\Containers\Container_PlayerDefault.json
+D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\Damagers\Damager_OnOff.json

@@ -1,0 +1,64 @@
+{
+  "$type": "ThunderRoad.LevelData, Assembly-CSharp",
+  "id": "Master",
+  "version": 2,
+  "modes": [
+    {
+      "name": "Default",
+      "modules": [
+        {
+          "$type": "OnOffSpell.OnOffSpellLevelModule, OnOffSpell",
+          "chanceOfStrips": [
+            {
+              "slot": "Boots",
+              "chance": 30
+            },
+            {
+              "slot": "GloveL",
+              "chance": 10
+            },
+            {
+              "slot": "GloveR",
+              "chance": 10
+            },
+            {
+              "slot": "Helmet",
+              "chance": 20
+            },
+            {
+              "slot": "Jacket",
+              "chance": 100
+            },
+            {
+              "slot": "Pants",
+              "chance": 100
+            },
+            {
+              "slot": "Cloak",
+              "chance": 10
+            },
+            {
+              "slot": "Headband",
+              "chance": 30
+            },
+            {
+              "slot": "ShoulderR",
+              "chance": 20
+            },
+            {
+              "slot": "ShoulderL",
+              "chance": 20
+            },
+            {
+              "slot": "Shirt",
+              "chance": 100
+            }
+          ]
+        },
+        {
+          "$type": "OnOffSpell.OnOffSpellTestingLevelModule, OnOffSpell"
+        }
+      ]
+    }
+  ]
+}
