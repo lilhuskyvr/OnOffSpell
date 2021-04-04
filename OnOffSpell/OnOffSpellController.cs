@@ -16,6 +16,7 @@ namespace OnOffSpell
         public OnOffSpellData data = new OnOffSpellData();
         public List<Creature> strippedCreatures;
         public List<ChanceOfStrip> chanceOfStrips;
+        public float chanceOfDisarmLeftWeapon, chanceOfDisarmRightWeapon;
 
         private void Awake()
         {
@@ -87,8 +88,16 @@ namespace OnOffSpell
                     }
                 }
 
-                creature.handLeft.TryRelease();
-                creature.handRight.TryRelease();
+                if (random.Next(1, 101) <= chanceOfDisarmLeftWeapon)
+                {
+                    creature.handLeft.TryRelease();
+                }
+
+                if (random.Next(1, 101) <= chanceOfDisarmRightWeapon)
+                {
+                    creature.handRight.TryRelease();
+                }
+
                 StartCoroutine(StripCreature(creature));
                 strippedCreatures.Add(creature);
             }
