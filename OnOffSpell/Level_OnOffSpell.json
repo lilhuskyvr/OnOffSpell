@@ -8,6 +8,8 @@
       "modules": [
         {
           "$type": "OnOffSpell.OnOffSpellLevelModule, OnOffSpell",
+          "chanceOfDisarmLeftWeapon": 100,
+          "chanceOfDisarmRightWeapon": 100,
           "chanceOfStrips": [
             {
               "slot": "Boots",
