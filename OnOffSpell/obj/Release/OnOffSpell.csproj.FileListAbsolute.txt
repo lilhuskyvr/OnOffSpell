@@ -102,3 +102,6 @@ D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\M
 D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\Spells\Spell_OnOffMerge.json
 D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\Containers\Container_PlayerDefault.json
 D:\Steam\steamapps\common\Blade & Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\OnOffSpell\Damagers\Damager_OnOff.json
+D:\Projects\RiderProjects\OnOffSpell\OnOffSpell\obj\Release\OnOffSpell.csprojResolveAssemblyReference.cache
+D:\Projects\RiderProjects\OnOffSpell\OnOffSpell\obj\Release\OnOffSpell.dll
+D:\Projects\RiderProjects\OnOffSpell\OnOffSpell\obj\Release\OnOffSpell.pdb

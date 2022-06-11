@@ -1,7 +1,4 @@
-﻿using System;
-using ThunderRoad;
-using UnityEngine;
-using Object = UnityEngine.Object;
+﻿using ThunderRoad;
 
 namespace OnOffSpell
 {
@@ -15,7 +12,7 @@ namespace OnOffSpell
             if (active || currentCharge < 1.0f)
                 return;
 
-            foreach (var creature in Creature.list)
+            foreach (var creature in Creature.allActive)
             {
                 if (
                     !creature.isPlayer

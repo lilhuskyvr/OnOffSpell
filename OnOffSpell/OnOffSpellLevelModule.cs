@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using ThunderRoad;
-using UnityEngine;
-using Object = UnityEngine.Object;
 
 // ReSharper disable UnusedMember.Local
 
@@ -14,12 +11,12 @@ namespace OnOffSpell
         public List<ChanceOfStrip> chanceOfStrips = new List<ChanceOfStrip>();
         private OnOffSpellController _onOffSpellController;
 
-        public override IEnumerator OnLoadCoroutine(Level level)
+        public override IEnumerator OnLoadCoroutine()
         {
             EventManager.onLevelLoad += EventManagerOnonLevelLoad;
             EventManager.onCreatureSpawn += EventManagerOnonCreatureSpawn;
 
-            return base.OnLoadCoroutine(level);
+            return base.OnLoadCoroutine();
         }
 
         private void EventManagerOnonCreatureSpawn(Creature creature)

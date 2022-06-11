@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using ThunderRoad;
 using UnityEngine;
 
@@ -17,6 +15,8 @@ namespace OnOffSpell
         public List<Creature> strippedCreatures;
         public List<ChanceOfStrip> chanceOfStrips;
         public float chanceOfDisarmLeftWeapon, chanceOfDisarmRightWeapon;
+        public Dictionary<int, string> leftHandItemIds = new Dictionary<int, string>();
+        public Dictionary<int, string> rightHandItemIds = new Dictionary<int, string>();
 
         private void Awake()
         {
@@ -28,7 +28,7 @@ namespace OnOffSpell
         {
             yield return new WaitForSeconds(1);
 
-            string[] items = {"Bra", "Underwear", "Wrist_Left", "Wrist_Right"};
+            string[] items = { "Bra", "Underwear", "Wrist_Left", "Wrist_Right" };
 
             foreach (var renderer in creature.renderers)
             {
@@ -44,13 +44,29 @@ namespace OnOffSpell
             yield return null;
         }
 
+        private void ReEquipCreatureWeapon(Creature creature, Side side)
+        {
+            var creatureInstanceId = creature.GetInstanceID();
+            var itemIds = side == Side.Left ? leftHandItemIds : rightHandItemIds;
+
+            if (!itemIds.ContainsKey(creatureInstanceId)) return;
+            var creatureHand = creature.GetHand(side);
+            Catalog.GetData<ItemData>(itemIds[creatureInstanceId]).SpawnAsync(
+                newItem => { creatureHand.Grab(newItem.GetMainHandle(side)); },
+                creatureHand.transform.position, creatureHand.transform.rotation);
+        }
+
         public void OnOffCreature(Creature creature)
         {
             var random = new System.Random();
             if (strippedCreatures.Contains(creature))
             {
                 creature.equipment.EquipAllWardrobes(false);
-                creature.equipment.EquipWeapons();
+
+                ReEquipCreatureWeapon(creature, Side.Left);
+                ReEquipCreatureWeapon(creature, Side.Right);
+
+
                 strippedCreatures.Remove(creature);
             }
             else
@@ -90,11 +106,19 @@ namespace OnOffSpell
 
                 if (random.Next(1, 101) <= chanceOfDisarmLeftWeapon)
                 {
+                    if (creature.equipment.GetHeldItem(Side.Left) != null)
+                    {
+                        leftHandItemIds[creature.GetInstanceID()] = creature.equipment.GetHeldItem(Side.Left).data.id;
+                    }
                     creature.handLeft.TryRelease();
                 }
 
                 if (random.Next(1, 101) <= chanceOfDisarmRightWeapon)
                 {
+                    if (creature.equipment.GetHeldItem(Side.Right) != null)
+                    {
+                        rightHandItemIds[creature.GetInstanceID()] = creature.equipment.GetHeldItem(Side.Right).data.id;
+                    }
                     creature.handRight.TryRelease();
                 }
 

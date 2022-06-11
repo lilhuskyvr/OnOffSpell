@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using ThunderRoad;
-using UnityEngine;
-using Object = UnityEngine.Object;
 
 // ReSharper disable MemberCanBePrivate.Global
 
@@ -13,7 +9,8 @@ namespace OnOffSpell
 {
     public class SpellOnOff : SpellCastProjectile
     {
-        protected override void OnProjectileCollision(CollisionInstance collisionInstance)
+        protected override void OnProjectileCollision(ItemMagicProjectile projectile,
+            CollisionInstance collisionInstance)
         {
             try
             {
@@ -24,19 +21,17 @@ namespace OnOffSpell
                 {
                     if (!targetCreature.isPlayer
                         && targetCreature.factionId != 2
-                        && !targetCreature.data.id.Contains("Angel")
-                        && !targetCreature.data.id.Contains("Shadow")
                     )
                         GameManager.local.GetComponent<OnOffSpellController>().OnOffCreature(targetCreature);
                 }
             }
             catch (Exception)
             {
-                
+                //ignore
             }
         }
 
-        public override void OnImbueCollisionStart(CollisionInstance collisionInstance)
+        public override bool OnImbueCollisionStart(CollisionInstance collisionInstance)
         {
             try
             {
@@ -47,16 +42,16 @@ namespace OnOffSpell
                 {
                     if (!targetCreature.isPlayer
                         && targetCreature.factionId != 2
-                        && !targetCreature.data.id.Contains("Angel")
-                        && !targetCreature.data.id.Contains("Shadow")
                     )
                         GameManager.local.GetComponent<OnOffSpellController>().OnOffCreature(targetCreature);
                 }
             }
             catch (Exception)
             {
-                
+                //ignore
             }
+
+            return base.OnImbueCollisionStart(collisionInstance);
         }
     }
 }

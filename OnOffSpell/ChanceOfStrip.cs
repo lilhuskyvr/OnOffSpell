@@ -2,7 +2,7 @@
 {
     public class ChanceOfStrip
     {
-        public string slot { get; set; }
-        public float chance { get; set; }
+        public string slot;
+        public float chance;
     }
 }
