@@ -5,13 +5,9 @@ using UnityEngine;
 
 namespace OnOffSpell
 {
-    public class OnOffSpellData
-    {
-    }
 
     public class OnOffSpellController : MonoBehaviour
     {
-        public OnOffSpellData data = new OnOffSpellData();
         public List<Creature> strippedCreatures;
         public List<ChanceOfStrip> chanceOfStrips;
         public float chanceOfDisarmLeftWeapon, chanceOfDisarmRightWeapon;
