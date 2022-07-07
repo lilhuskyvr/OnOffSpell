@@ -13,13 +13,61 @@ namespace OnOffSpell
         public float chanceOfDisarmLeftWeapon, chanceOfDisarmRightWeapon;
         public Dictionary<int, string> leftHandItemIds = new Dictionary<int, string>();
         public Dictionary<int, string> rightHandItemIds = new Dictionary<int, string>();
+        private List<string> textureNames = new List<string>()
+        {
+            "LOD0_HumanFemale_Body_c"
+        };
+        
+        private Dictionary<string, Texture> overrideTextures = new Dictionary<string, Texture>();
 
         private void Awake()
         {
             strippedCreatures = new List<Creature>();
             chanceOfStrips = new List<ChanceOfStrip>();
+            LoadTextures();
+        }
+        
+        private void LoadTextures()
+        {
+            foreach (var textureName in textureNames)
+            {
+                Catalog.LoadAssetAsync<GameObject>(textureName,
+                    prefab =>
+                    {
+                        var cloned = Object.Instantiate(prefab);
+                        overrideTextures[textureName] = cloned.GetComponent<MeshRenderer>().materials[0].mainTexture;
+                    },
+                    textureName);
+            }
         }
 
+        private IEnumerator ReplaceTextures(Creature creature)
+        {
+            foreach (var part in creature.manikinLocations.PartList.GetAllParts())
+            {
+                foreach (var renderer in part.GetRenderers())
+                {
+                    foreach (var rendererSharedMaterial in renderer.sharedMaterials)
+                    {
+                        foreach (var texturePropertyNameID in rendererSharedMaterial.GetTexturePropertyNameIDs())
+                        {
+                            var texture = rendererSharedMaterial.GetTexture(texturePropertyNameID);
+
+                            if (texture == null)
+                                continue;
+
+                            if (!overrideTextures.ContainsKey(texture.name))
+                                continue;
+
+                            rendererSharedMaterial.SetTexture(texturePropertyNameID, overrideTextures[texture.name]);
+                        }
+                    }
+                }
+            }
+
+            yield return null;
+        }
+        
         private IEnumerator StripCreature(Creature creature)
         {
             yield return new WaitForSeconds(1);
@@ -37,11 +85,13 @@ namespace OnOffSpell
                 }
             }
 
-            yield return null;
+            yield return ReplaceTextures(creature);
         }
 
         private void ReEquipCreatureWeapon(Creature creature, Side side)
         {
+            if (creature.equipment.GetHeldItem(side) != null)
+                return;
             var creatureInstanceId = creature.GetInstanceID();
             var itemIds = side == Side.Left ? leftHandItemIds : rightHandItemIds;
 
